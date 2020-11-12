@@ -10,7 +10,7 @@ color:white;
 const HeadingSection = (props)=>{
     return(
         <>
-        <HeadText>{props.heading}</HeadText>
+        <HeadText>Our React Js</HeadText>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Card from './Card';
+import HeadingSection from './HeadingSection';
 
 const Container = styled.div`
 display:flex;
@@ -55,6 +56,7 @@ const CardList = ()=>{
     return(
         <>
         <Container>
+        <HeadingSection/>
         {data.map((data) => <Card data = {data}/> )}
         </Container>
         </>
